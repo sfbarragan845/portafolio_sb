@@ -16,39 +16,3 @@ $fourth-color: #E7DFDD;
 }*/
 
 
-.title_container{
-  //display: block;
-  color:white;
-  font-size: 20px;
-  margin: 0.5em;
-  height: 20em;
-  width: 98%;
-  box-shadow: #4717f638 0px 3px 8px;
-  display: flex;
-}
-
-.title{
-  margin: auto;
-  font-size: 2em;
-}
-
-
-.text_title{
-  margin: auto;
-}
-
-.text_content{
-  margin: auto;
-}
-
-.title_container {
-  display: grid;
-  grid:
-    "span12" 1fr
-    "span12" 1fr
-    "span12" 1fr
-    / 1fr;
-  gap: 100px;
-}
-
-.span12 { grid-area: span12; }
