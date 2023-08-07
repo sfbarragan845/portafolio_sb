@@ -1,0 +1,57 @@
+.menu_container{
+  display: flex;
+  width: 100%;
+  align-items: right;
+  text-align:right;
+  justify-content:space-between;
+}
+
+.menu{
+  list-style: none;
+  text-align: end;
+}
+
+.menu_item{
+  float: left;
+  display: inline;
+  margin-right: 2em;
+}
+
+.menu_item:hover{
+  font-weight: bold;
+}
+
+.text_item{
+  color:rgb(235, 234, 234);
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.text_item:hover{
+  text-shadow: -5px -1px  1Px #A239CA;
+}
+
+
+.image_container{
+  align-items: flex-start;
+}
+
+.example-card {
+  max-width: 400px;
+  background-color: #0E0B16;
+}
+
+.example-header-image {
+  background-image: url('https://vidcache.net:8161/static/3ca995677fdb57dad787fb72a98c3deb7ac2b61b/foto_perfil.jpeg');
+  background-size: cover;
+}
+
+.card_title{
+  color: rgb(235, 234, 234);
+  font-family: monospace;
+}
+
+.card_subtitle{
+  font-family: monospace;
+}
+

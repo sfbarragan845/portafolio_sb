@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --prymary-color: #0E0B16;
+  --secondary-color: #A239CA;
+  --third-color: #4717F6;
+  --fourth-color: #E7DFDD;
+}
+
+body{
+  background-color: var(--prymary-color);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: monospace; }
