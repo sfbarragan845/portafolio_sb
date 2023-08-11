@@ -1,0 +1,108 @@
+.about_info_container{
+  width: 100%;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "about_container skills_container" 1fr
+    / 40% auto;
+  gap: 8px;
+}
+
+.about_container {
+  grid-area: about_container;
+  margin: 10%;
+}
+.skills_container {
+  margin: 6%;
+  grid-area: skills_container;
+}
+
+.about_title,.about_info,.skills_title,.skills_subtitle{
+  color: rgb(255, 255, 255);
+
+}
+
+.about_info{
+  font-size: 1.2em;
+}
+.skills_list{
+  display: grid;
+  gap: 16px;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.nft {
+  user-select: none;
+  max-width: 80px;
+  margin: 1rem auto;
+  border: 1px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(
+    0deg,
+    rgba(40, 44, 52, 1) 0%,
+    rgba(17, 0, 32, 0.5) 100%
+  );
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: 0.5s all;
+  hr {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #88888855;
+    margin-top: 5%;
+  }
+  ins {
+    text-decoration: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    //padding: 1rem;
+    .tokenImage {
+      padding: 0.5rem;
+      border-radius: 1rem;
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .creator {
+      display: flex;
+      align-items: center;
+      margin-top: 0.2rem;
+      margin-bottom: -0.3rem;
+      justify-content: center;
+      ins {
+        color: #4717F6;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
+  ::before {
+    position: fixed;
+    content: "";
+    box-shadow: 0 0 100px 40px #4717f611;
+    top: -10%;
+    left: -100%;
+    transform: rotate(-45deg);
+    height: 60rem;
+    transition: 0.7s all;
+  }
+  &:hover {
+    border: 1px solid #ffffff44;
+    box-shadow: 0 7px 50px 10px #000000aa;
+    transform: scale(1.015);
+    filter: brightness(1.3);
+    ::before {
+      filter: brightness(0.5);
+      top: -400%;
+      left: 200%;
+    }
+  }
+}
