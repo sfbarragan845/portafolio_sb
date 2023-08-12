@@ -5,7 +5,13 @@
   --secondary-color: #A239CA;
   --third-color: #4717F6;
   --fourth-color: #E7DFDD;
+
+  --yellow: #ffffff;
+	--dark: #2f313a;
+	--deg: -86deg;
+	--trans: all 0.4s ease 0s;
 }
+
 
 body{
   background-color: var(--prymary-color);

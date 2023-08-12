@@ -1,10 +1,16 @@
+
 .menu_container{
+  margin: 0;
   display: flex;
   width: 100%;
   align-items: right;
   text-align:right;
   justify-content:space-between;
   box-shadow: 10px 1px 10px;
+  background: #0e0b16b7;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 .menu{
@@ -39,7 +45,7 @@
 }
 
 .example-card {
-  max-width: 400px;
+  //max-width: 400px;
   background-color: #0E0B16;
 }
 
