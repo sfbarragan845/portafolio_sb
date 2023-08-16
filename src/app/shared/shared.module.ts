@@ -4,13 +4,15 @@ import { MyMenuComponent } from './components/my-menu/my-menu.component';
 import {MatCardModule} from '@angular/material/card';
 import { PresentationInfoComponent } from './components/presentation-info/presentation-info.component';
 import { TechnologiesInfoComponent } from './components/technologies-info/technologies-info.component';
+import { ProjectsInfoComponent } from './components/projects-info/projects-info.component';
 
 
 
 @NgModule({
   declarations: [
     PresentationInfoComponent,
-    TechnologiesInfoComponent
+    TechnologiesInfoComponent,
+    ProjectsInfoComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { TechnologiesInfoComponent } from './components/technologies-info/techno
   exports: [
     MyMenuComponent,
     PresentationInfoComponent,
-    TechnologiesInfoComponent
+    TechnologiesInfoComponent,
+    ProjectsInfoComponent
   ]
 })
 export class SharedModule { }
