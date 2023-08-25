@@ -5,7 +5,7 @@
   margin-left: auto;
 
   @media screen and (min-width: 992px) and (max-width: 1439px) {
-    max-width: 1279px !important;
+    max-width: 1379px !important;
     padding: 0 !important;
     margin: 0 80px !important;
     width: auto !important;
@@ -32,7 +32,7 @@
 .container-title {
   text-align: center;
   padding: 0 !important;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   font-size: 40px;
   color: #4717F6;
   font-weight: 600;
@@ -125,4 +125,14 @@
 .project_item_technologies{
   max-width: 30px;
   margin-right: 10px;
+}
+
+.project_link{
+  text-decoration: none;
+}
+
+.underline{
+  max-width: 10%;
+  border: 3px solid #A239CA;
+  border-radius: 5px;
 }
