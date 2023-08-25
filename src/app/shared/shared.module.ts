@@ -5,6 +5,7 @@ import {MatCardModule} from '@angular/material/card';
 import { PresentationInfoComponent } from './components/presentation-info/presentation-info.component';
 import { TechnologiesInfoComponent } from './components/technologies-info/technologies-info.component';
 import { ProjectsInfoComponent } from './components/projects-info/projects-info.component';
+import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 
 
 
@@ -12,7 +13,8 @@ import { ProjectsInfoComponent } from './components/projects-info/projects-info.
   declarations: [
     PresentationInfoComponent,
     TechnologiesInfoComponent,
-    ProjectsInfoComponent
+    ProjectsInfoComponent,
+    ContactSectionComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import { ProjectsInfoComponent } from './components/projects-info/projects-info.
     MyMenuComponent,
     PresentationInfoComponent,
     TechnologiesInfoComponent,
-    ProjectsInfoComponent
+    ProjectsInfoComponent,
+    ContactSectionComponent
   ]
 })
 export class SharedModule { }
